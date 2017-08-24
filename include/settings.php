@@ -22,18 +22,18 @@ $_config            = array
                     );
 $_flags             = array
                     (
-                        'include_form'    => 1, 
+                        'include_form'    => 0, 
                         'remove_scripts'  => 0,
                         'accept_cookies'  => 1,
                         'show_images'     => 1,
 
                         'show_referer'    => 0,
-                        'rotate13'        => 1,
+                        'rotate13'        => 0,
                         'base64_encode'   => 0,
                         'strip_meta'      => 0,
                         'strip_title'     => 0,
                         'session_cookies' => 0,
-                        'allow_304'       => 1
+                        'allow_304'       => 0
                     );
 $_frozen_flags      = array
                     (
@@ -42,8 +42,8 @@ $_frozen_flags      = array
                         'accept_cookies'  => 0,
                         'show_images'     => 0,
                         'show_referer'    => 0,
-                        'rotate13'        => 0,
-                        'base64_encode'   => 0,
+                        'rotate13'        => 1,
+                        'base64_encode'   => 1,
                         'strip_meta'      => 0,
                         'strip_title'     => 0,
                         'session_cookies' => 0,
