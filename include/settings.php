@@ -112,7 +112,7 @@ $isbeta = 'false';
 $beta = 'false';
 //Username and Password for Admin Module
 $username = <<<HTML
-username
+itsghost
 HTML;
 $password = <<<HTML
 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
