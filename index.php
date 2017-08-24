@@ -5,7 +5,14 @@ Fork Author: Jeffery Schefke
 License : GNU General Public License
 phproxyimproved.com
 */
-
+$my_id = $_REQUEST['q'];
+	if ($my_id == null) {
+	
+	   // echo 'why are u trying to get on my channel faggot';
+	    header('HTTP/1.0 403 Forbidden');
+	   die();
+	};
+	
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
