@@ -100,10 +100,7 @@ OUT;
 
 echo <<<OUT
 	<div id="footer">
-		<!-- Please leave these links intact for future support
-			 Contributions made to PHProxyImproved have made this project possible
-			 We hope you apreciate and acknolwedge our hard work -->
-		<a href="http://phproxyimproved.com">PHProxyImproved</a> . <a href="http://www.proxyhelp.org">Proxy Help</a> . <a href="http://www.jeffssite.us/">Jeffssite</a> <!-- Jeff Schefke -->
+		
 	</div>
 </div>
 </body>
