@@ -1,9 +1,6 @@
 <?php
 /*
-Original Author: Abdullah Arif
-Fork Author: Jeffery Schefke
 License : GNU General Public License
-phproxyimproved.com
 */
 
 //To Do: Switch to functions
