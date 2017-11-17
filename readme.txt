@@ -9,5 +9,5 @@ For support issues relating to the operation of this software, please use our su
 <https://itsghostyt.com/contact>
 
 							Just for images
-403 Error if Q==NULL changeable in index.php
+403 Error if q = null changeable in index.php
 Herokuapp Hosting.
