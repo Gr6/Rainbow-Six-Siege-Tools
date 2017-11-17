@@ -1,9 +1,6 @@
 <?php 
 /*
-Original Author: Abdullah Arif
-Fork Author: Jeffery Schefke
 License : GNU General Public License
-phproxyimproved.com
 */
 if (basename(__FILE__) == basename($_SERVER['PHP_SELF'])) {
    echo '404';
