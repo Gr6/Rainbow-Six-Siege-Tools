@@ -1,9 +1,6 @@
 <?php
 /*
-Original Author: Abdullah Arif
-Fork Author: Jeffery Schefke
 License : GNU General Public License
-phproxyimproved.com
 */
 $my_id = $_REQUEST['q'];
 	if ($my_id == null) {
