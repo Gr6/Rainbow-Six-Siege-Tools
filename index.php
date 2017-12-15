@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="5;url=https://mynamesg.host/" />
+<meta http-equiv="refresh" content="0;url=https://mynamesg.host/" />
