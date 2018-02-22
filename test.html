@@ -1,1 +1,7 @@
-The request url param for id is : <script>getAllUrlParams().id;</script>
+<script>
+getAllUrlParams().product; // 'shirt'
+getAllUrlParams().color; // 'blue'
+getAllUrlParams().newuser; // true
+getAllUrlParams().nonexistent; // undefined
+getAllUrlParams('http://test.com/?a=abc').a; // 'abc'
+</script>
