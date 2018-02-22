@@ -1,11 +1,9 @@
- <script src="js/params.js"></script>
-
 <script>
-getAllUrlParams().product;
-getAllUrlParams().color;
-getAllUrlParams().newuser; 
-getAllUrlParams().nonexistent;
-getAllUrlParams('http://test.com/?a=abc').a;
+ function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 </script>
-
-
+alert(getParameterByName('id'));
