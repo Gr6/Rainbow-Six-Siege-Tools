@@ -73,14 +73,12 @@ margin-left: 200px;
 
 @media only screen and (max-device-width: 736px) {
 .links {
- height: 50% !important; /* Set your own height: percents, ems, whatever! */
-  width: 50% !important; /* Set your own width: percents, ems, whatever! */
   overflow: auto !important; /* Recommended in case content is larger than the container */
   margin: auto !important; /* Center the item vertically & horizontally */
   position: absolute !important; /* Break it out of the regular flow */
-  top: 0 !important; 
+
   left: 0 !important;
-  bottom: 0 !important; 
+
   right: 0 !important;
   /* Set the bounds in which to center it, relative to its parent/container */
 }
