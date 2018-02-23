@@ -69,9 +69,14 @@ float:left;
 margin-left: 200px;
 }
 
+.about{float:right;margin-top:80px; margin-right: 200px;}
+
 @media only screen and (max-device-width: 736px) {
 .links {
 float:left !important;
 position:absolute !important;
 right:0 !important;
+}
+.about{
+display:none !important;
 }}
