@@ -71,7 +71,7 @@ margin-left: 200px;
 
 .about{float:right;margin-top:80px; margin-right: 200px;}
 
-@media only screen and (max-device-width: 736px) {
+@media only screen and (max-device-width: 993px) {
 .links {
   overflow: auto !important; /* Recommended in case content is larger than the container */
   margin: auto !important; /* Center the item vertically & horizontally */
