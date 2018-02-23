@@ -1,0 +1,1 @@
+exclude: ["CNAME", "Rakefile", "MIT-LICENSE", "README.md", "TODO.taskpaper"]
