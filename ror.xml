@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		}
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://r6tools.pw/</title>
+  <link>https://r6tools.pw/</link>
+
+<item>
+     <link>https://r6tools.pw/</link>
+     <title>Rainbow Six Siege Tools - r6tools.pw</title>
+     <description>Can't decide who to play or what map to play? Let a computer decide which Operator or Map you're playing in Rainbow Six: Siege (Mobile Friendly)</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://r6tools.pw/map</link>
+     <title>Random Map Generator - r6tools.pw</title>
+     <description>Can't decide what map to play? Let a computer decide which Map you're playing in Rainbow Six: Siege (Mobile Friendly)</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://r6tools.pw/operator</link>
+     <title>Random Operator Generator - r6tools</title>
+     <description>Can't decide who to play? Let a computer decide which Operator you're playing in Rainbow Six: Siege (Mobile Friendly)</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
