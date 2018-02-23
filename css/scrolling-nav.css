@@ -14,8 +14,8 @@ html {
     height: 100%;
 }
 
-div#preload { 
-    display: none;
+#preload { 
+    display: none !important;
 }
 
 @media(min-width:767px) {
