@@ -76,9 +76,7 @@ margin-left: 200px;
   overflow: auto !important; /* Recommended in case content is larger than the container */
   margin: auto !important; /* Center the item vertically & horizontally */
   position: absolute !important; /* Break it out of the regular flow */
-
   left: 0 !important;
-
   right: 0 !important;
   /* Set the bounds in which to center it, relative to its parent/container */
 }
