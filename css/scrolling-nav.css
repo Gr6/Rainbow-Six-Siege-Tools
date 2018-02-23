@@ -62,3 +62,15 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #eee;
 }
+
+.links{
+margin-top:80px;
+float:left;
+margin-left: 200px;
+}
+
+@media only screen and (max-device-width: 736px) {
+.links {
+position:absolute !important;
+right:0 !important;
+}}
