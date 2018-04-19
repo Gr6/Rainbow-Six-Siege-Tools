@@ -57,9 +57,11 @@
     max-width: 400px;
     width: 100%;
 }
+
 .btn {
     font-weight: 700;
     font-size: 1.7em;
+
 }
 #disclaimer {
     font-size: 0.5em;
@@ -71,12 +73,15 @@
 a:link {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
+
 a:active {
     text-decoration: none;
 }
@@ -85,6 +90,7 @@ a:link, a:visited {
     display: inline-block;
 }
 html {
+
 }
 </style>
 
@@ -114,11 +120,11 @@ html {
             </div>
           
             <div id="output" class="row">
-<!--                 <img id="opimg" width="600px" height="254px" class="img-responsive" src="https://ghosts.cloud/cdn/r6tools/disablility/default.png" /> -->
-                <h3 id="opname" class="operator-name">Disablility</H3>
+                <img id="opimg" width="600px" height="254px" class="img-responsive" src="https://ghosts.cloud/cdn/r6tools/maps/house.png" />
+                <h3 id="opname" class="operator-name">Map</H3>
             </div>
             <div class="row">
-                <button id="btnAttack" type="button" class="btn btn-success">Random Disability</button>
+                <button id="btnAttack" type="button" class="btn btn-success">New Map</button>
             </div>
             <p id="disclaimer">This website is not affiliated with, maintained, authorized, endorsed or sponsored by Ubisoft or any of its affiliates. This is an independent, unofficial site. All product or brand names are trademarks of their respective owners.</p>
     </section>
@@ -132,6 +138,7 @@ html {
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js?v=1.0"></script>
     <script src="js/scrolling-nav.js?v=1.0"></script>
-       <script>$(document).ready(function(){function g(){$.getJSON(a,function(a){e=i(a)})}function h(a){for(sOP=f;sOP==f;)sOP=a[Math.floor(Math.random()*a.length)];b.attr("src",d+sOP.toLowerCase()+".png?v2.0.1"),c.html('<div class="icon '+sOP+'"></div>'+sOP),f=sOP}function i(a){for(var b=0;b<a.length-1;b++){var c=b+Math.floor(Math.random()*(a.length-b)),d=a[c];a[c]=a[b],a[b]=d}return a}var a="disability.json",b=$("#opimg"),c=$("#opname"),d="https://ghosts.cloud/cdn/r6tools/disability/",e="",f="";$("#btnAttack").click(function(){h(e.maps)}),$("#btnDefend").click(function(){h(e.defenders)}),g()});</script>
+       <script>$(document).ready(function(){function g(){$.getJSON(a,function(a){e=i(a)})}function h(a){for(sOP=f;sOP==f;)sOP=a[Math.floor(Math.random()*a.length)];b.attr("src",d+sOP.toLowerCase()+".png?v2.0.1"),c.html('<div class="icon '+sOP+'"></div>'+sOP),f=sOP}function i(a){for(var b=0;b<a.length-1;b++){var c=b+Math.floor(Math.random()*(a.length-b)),d=a[c];a[c]=a[b],a[b]=d}return a}var a="disability.json",b=$("#opimg"),c=$("#opname"),d="https://ghosts.cloud/cdn/r6tools/maps/",e="",f="";$("#btnAttack").click(function(){h(e.maps)}),$("#btnDefend").click(function(){h(e.defenders)}),g()});</script>
 </body>
+
 </html>
