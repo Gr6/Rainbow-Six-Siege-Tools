@@ -1,7 +1,7 @@
 {"disability":[
   "Can't Run",
   "Must Crouch",
-  "Can't Leave Objective",
+  "Can't Leave Objective (defense)",
   "Can't Spawn Peak",
   "Melee Only",
   "Pistol Only",
@@ -16,7 +16,7 @@
   "Burst Bullet Mode",
   "Crouch Only",
   "No Reinforcements",
-  "Random OBJ",
-  "Enemy picks your obj",
+  "Random OBJ (defense)",
+  "Enemy picks your obj (defense)",
   "No Ability"
 ]}
